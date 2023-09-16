@@ -173,7 +173,7 @@ def get_package_version():
         return str(public_version)
 
 setup(
-    name="flash_attn",
+    name="flash_attn_v1",
     version=get_package_version(),
     packages=find_packages(
         exclude=("build", "csrc", "include", "tests", "dist", "docs", "benchmarks", "flash_attn.egg-info",)
